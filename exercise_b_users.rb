@@ -76,7 +76,8 @@ users = {
 
 # 6. Return an array of Avril's lottery numbers that are even
 
-#puts users["Avril"][:lottery_numbers].select {|num| num%2 == 0}
+#puts users["Avril"][:lottery_numbers].select { |num| num%2 == 0 }
+#puts users["Avril"][:lottery_numbers].select { |num| num.even? }
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
@@ -94,14 +95,15 @@ users = {
 # puts users["Erik"][:pets]
 
 # 10. Add another person to the users hash
-
+# 
 # users["Ian"] = {
-#   :twitter => "secret",
-#   :lottery_numbers => [6, 12, 49, 33, 45, 20],
-#   :home_town => "Erskine",
-#   :pets => [{
-#               :name => "pepper",
-#               :species => "hamster"
+#   twitter: "secret",
+#   lottery_numbers: [6, 12, 49, 33, 45, 20],
+#   home_town: "Erskine",
+#   pets: [
+#          {
+#               name: "pepper",
+#               species: "hamster"
 #             }
 #           ]
 # }

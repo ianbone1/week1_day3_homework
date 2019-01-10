@@ -2,8 +2,8 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 # 1. Add `"Edinburgh Waverley"` to the end of the array
 
-#stops.push("Edinburgh Waverley")
-#puts stops
+# stops.push("Edinburgh Waverley")
+# puts stops
 
 # 2. Add `"Glasgow Queen St"` to the start of the array
 
@@ -12,8 +12,9 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 # 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
 
-#stops.insert(3,"Polmont")
-#puts stops
+# position=stops.index("Linlithgow")
+# stops.insert(position,"Polmont")
+# puts stops
 
 # 4. Work out the index position of `"Linlithgow"`
 
@@ -22,8 +23,8 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 # 5. Remove `"Livingston"` from the array using its name
 
-#stops.delete("Livingston")
-#puts stops
+# stops.delete(stops.index("Livingston"))
+# puts stops
 
 # 6. Delete `"Cumbernauld"` from the array by index
 
@@ -38,7 +39,12 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 #puts stops[2]
 #puts stops.at(2)
-#puts stops[-4]
+# #puts stops[-4]
+# puts stops.slice[2]
+# puts stops.slice[-4]
+# puts stops[2, 1]
+# puts stops[2...3].first
+# puts stops.fetch[2]
 
 # 9. Reverse the positions of the stops in the array
 

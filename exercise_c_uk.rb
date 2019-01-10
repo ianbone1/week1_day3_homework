@@ -36,7 +36,7 @@ united_kingdom = [
 # puts united_kingdom
 
 # v3: use a methods
-# 
+#
 # def change_capital(countries, change_capital_from, change_capital_to)
 #   index_counter=countries.length-1
 #   while index_counter>=0
@@ -55,7 +55,7 @@ united_kingdom = [
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
 
 # nother_ireland={name:       "Northern Ireland",
-#                 populations: 2,
+#                 populations: 1811000,
 #                 capital:    "Belfast"}
 # united_kingdom.push(nother_ireland)
 # puts united_kingdom
